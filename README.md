@@ -1,7 +1,6 @@
-funcs.py - выполненное домашнее задание
-test_funcs.py - тесты на pytest
-MyIteration.py - классы поддерживающие интерфейс Iterable
-
+very_simple_orm.py - выполненное домашнее задание
+test_orm.py - тесты на pytest
+example.py - пример, который должен работать по заданию
 
 Домашнее задание от Авито.
 
@@ -16,3 +15,8 @@ pip install -r requirements.txt
 3. Зайти в виртуальное окружение:
 ```
 source venv/bin/activate
+```
+4. Запустить тесты
+```
+python3 -m pytest
+```
